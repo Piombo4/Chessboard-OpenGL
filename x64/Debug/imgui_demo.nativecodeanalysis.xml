@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aless\OneDrive\Documents\GitHub\ComputerGraphicsProject\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>1746</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'ImGuiKey' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>ShowDemoWindowWidgets::Funcs::MyCallback</FUNCTION>
+    <DECORATED>?MyCallback@Funcs@?BMO@??ShowDemoWindowWidgets@@YAXPEAUImGuiDemoWindowData@@@Z@SAHPEAUImGuiInputTextCallbackData@@@Z</DECORATED>
+    <FUNCLINE>1738</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aless\OneDrive\Documents\GitHub\ComputerGraphicsProject\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>3714</LINE>
+      <COLUMN>44</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'ShowDemoWindowMultiSelect::__l169::WidgetType' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>ShowDemoWindowMultiSelect</FUNCTION>
+    <DECORATED>?ShowDemoWindowMultiSelect@@YAXPEAUImGuiDemoWindowData@@@Z</DECORATED>
+    <FUNCLINE>3194</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aless\OneDrive\Documents\GitHub\ComputerGraphicsProject\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>5157</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'ImGuiSortDirection' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>`anonymous-namespace'::MyItem::CompareWithSortSpecs</FUNCTION>
+    <DECORATED>?CompareWithSortSpecs@MyItem@?A0x82da952b@@SAHPEBX0@Z</DECORATED>
+    <FUNCLINE>5138</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aless\OneDrive\Documents\GitHub\ComputerGraphicsProject\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>10337</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'ImGuiCol_' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>ExampleAssetsBrowser::Draw</FUNCTION>
+    <DECORATED>?Draw@ExampleAssetsBrowser@@QEAAXPEBDPEA_N@Z</DECORATED>
+    <FUNCLINE>10131</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

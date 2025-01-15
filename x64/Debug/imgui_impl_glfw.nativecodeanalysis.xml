@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aless\OneDrive\Documents\GitHub\ComputerGraphicsProject\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_glfw.cpp</FILENAME>
+      <LINE>312</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'ImGuiKey' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplGlfw_KeyToImGuiKey</FUNCTION>
+    <DECORATED>?ImGui_ImplGlfw_KeyToImGuiKey@@YA?AW4ImGuiKey@@HH@Z</DECORATED>
+    <FUNCLINE>191</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aless\OneDrive\Documents\GitHub\ComputerGraphicsProject\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_glfw.cpp</FILENAME>
+      <LINE>498</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'ImGuiMouseSource' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>GetMouseSourceFromMessageExtraInfo</FUNCTION>
+    <DECORATED>?GetMouseSourceFromMessageExtraInfo@@YA?AW4ImGuiMouseSource@@XZ</DECORATED>
+    <FUNCLINE>494</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\aless\OneDrive\Documents\GitHub\ComputerGraphicsProject\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_glfw.cpp</FILENAME>
+      <LINE>580</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'GlfwClientApi' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplGlfw_Init</FUNCTION>
+    <DECORATED>?ImGui_ImplGlfw_Init@@YA_NPEAUGLFWwindow@@_NW4GlfwClientApi@@@Z</DECORATED>
+    <FUNCLINE>580</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

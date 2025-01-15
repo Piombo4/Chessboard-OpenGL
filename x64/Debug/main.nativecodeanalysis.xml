@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>361</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Overflow aritmetico: verrà usato l'operatore '+' su un valore a 4 byte e verrà eseguito il cast del risultato in un valore a 8 byte. Per evitare l'overflow, eseguire il cast del valore nel tipo più ampio prima di chiamare l'operatore '+' (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>types.h</FILENAME>
+      <LINE>365</LINE>
+      <COLUMN>39</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Overflow aritmetico: verrà usato l'operatore '+' su un valore a 4 byte e verrà eseguito il cast del risultato in un valore a 8 byte. Per evitare l'overflow, eseguire il cast del valore nel tipo più ampio prima di chiamare l'operatore '+' (io.2).</DESCRIPTION>
+    <FUNCTION>aiString::Append</FUNCTION>
+    <DECORATED>?Append@aiString@@QEAAXPEBD@Z</DECORATED>
+    <FUNCLINE>356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>light.h</FILENAME>
+      <LINE>241</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiLightSourceType' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiLight::{ctor}</FUNCTION>
+    <DECORATED>??0aiLight@@QEAA@XZ</DECORATED>
+    <FUNCLINE>240</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.h</FILENAME>
+      <LINE>664</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiPropertyTypeInfo' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterialProperty::{ctor}</FUNCTION>
+    <DECORATED>??0aiMaterialProperty@@QEAA@XZ</DECORATED>
+    <FUNCLINE>660</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.h</FILENAME>
+      <LINE>1542</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiReturn' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiGetMaterialFloat</FUNCTION>
+    <DECORATED>aiGetMaterialFloat</DECORATED>
+    <FUNCLINE>1537</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiTextureType' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiTextureMapping' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiTextureOp' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>material.inl</FILENAME>
+      <LINE>65</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiTextureMapMode' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiMaterial::GetTexture</FUNCTION>
+    <DECORATED>?GetTexture@aiMaterial@@QEBA?AW4aiReturn@@W4aiTextureType@@IPEAUaiString@@PEAW4aiTextureMapping@@PEAIPEAMPEAW4aiTextureOp@@PEAW4aiTextureMapMode@@@Z</DECORATED>
+    <FUNCLINE>65</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>anim.h</FILENAME>
+      <LINE>325</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiAnimBehaviour' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiNodeAnim::{ctor}</FUNCTION>
+    <DECORATED>??0aiNodeAnim@@QEAA@XZ</DECORATED>
+    <FUNCLINE>318</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Program Files\Assimp\include\assimp\</FILEPATH>
+      <FILENAME>metadata.h</FILENAME>
+      <LINE>93</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>Il tipo enum 'aiMetadataType' non è definito nell'ambito. Preferire 'enum class' a 'enum' (enum.3).</DESCRIPTION>
+    <FUNCTION>aiMetadataEntry::{ctor}</FUNCTION>
+    <DECORATED>??0aiMetadataEntry@@QEAA@XZ</DECORATED>
+    <FUNCLINE>92</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
